@@ -1,2 +1,2 @@
-class Skill < ApplicationRecord
+ class Skill < ApplicationRecord
 end
