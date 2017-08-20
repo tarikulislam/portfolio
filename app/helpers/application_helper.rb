@@ -17,4 +17,8 @@ module ApplicationHelper
   end
  end
 
+ def copyright_generator
+  DevcampViewTool::Renderer.copyright 'Tarikulislam', 'All rights reserved'
+ end
+
 end
