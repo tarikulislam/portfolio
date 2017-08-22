@@ -1,6 +1,6 @@
 module ApplicationHelper
  
-  def login_helper(style_name)
+  def login_helper(style_name = '')
     if current_user.is_a?(GuestUser)
       (link_to "Register", new_user_registration_path, class: style_name) +
       " ".html_safe +
