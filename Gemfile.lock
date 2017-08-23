@@ -213,7 +213,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap (~> 4.0.0.beta)
+  bootstrap (~> 4.0.0.alpha5)
   byebug
   coffee-rails (~> 4.2)
   devcamp_view_tool!
