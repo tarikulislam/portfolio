@@ -60,7 +60,8 @@ footer p {
   margin-bottom: .25rem;
 }
 
-// I had a problem with dropdown manue so I manged this, If can fix it later.
+/* I had a problem with dropdown manue so I manged this, If can fix it later. */
+
 .navbar-inverse .navbar-toggler-icon {
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHMAAABkCAMAAACCTv/3AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF////5ubmueBsSwAAAAJ0Uk5T/wDltzBKAAAAPklEQVR42uzYQQ0AAAgDseHfNC4IyVoD912WAACUm3uampqampqamq+aAAD+IVtTU1NTU1NT0z8EAFBsBRgAX+kR+Qam138AAAAASUVORK5CYII=);
 }
@@ -79,5 +80,13 @@ footer p {
     background-color: #292b2c!important;
 }
 .navbar-brand {
-  color : white;
+  color: white;
 }
+
+/* Custom Styles */
+
+.portfolio-form {
+  padding: 20px; 
+}
+
+
