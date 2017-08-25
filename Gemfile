@@ -54,9 +54,12 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'friendly_id', '~> 5.1.0' 
 gem 'devise', '~> 4.3'
 gem 'jquery-rails'
-gem 'bootstrap', '~> 4.0.0.beta'
+gem 'bootstrap', '~> 4.0.0.alpha5'
 
 # MY gem has a problem it should be built new. Now using jordan's gem -_- .
 gem 'devcamp_view_tool', git: 'https://github.com/jordanhudgens/devcamp_view_tool'
 
 gem 'petergate', '~> 1.7', '>= 1.7.5'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
+
+gem 'kaminari', '~> 1.0', '>= 1.0.1'
