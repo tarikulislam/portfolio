@@ -61,11 +61,8 @@ gem 'devcamp_view_tool', git: 'https://github.com/jordanhudgens/devcamp_view_too
 
 gem 'petergate', '~> 1.7', '>= 1.7.5'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
-
 gem 'kaminari', '~> 1.0', '>= 1.0.1'
-
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
-
 gem 'carrierwave', '~> 0.11.2'
 gem 'mini_magick', '~> 4.5', '>= 4.5.1'
 gem 'carrierwave-aws', '~> 1.0'
@@ -73,3 +70,4 @@ gem 'dotenv-rails', '~> 2.1', '>= 2.1.1'
 gem 'cocoon', '~> 1.2', '>= 1.2.9'
 gem 'gritter', '~> 1.2'
 gem 'twitter', '~> 6.1'
+gem 'redis', '~> 4.0'
