@@ -1,6 +1,7 @@
 @import "bootstrap";
 @import "font-awesome";
 @import "gritter";
+
 /*
  * Globals
  */
@@ -170,8 +171,9 @@ h6, .h6 {
 }
 
 /*
-* Custom Styles
-*/
+ * Custom styles
+ */
+
 .social-links li {
   font-size: 2.5em;
 }
@@ -189,14 +191,11 @@ h6, .h6 {
   font-weight: 700;
 }
 
-.grav {
-  padding: 10px;
-}
-.gspot {
-  margin-left: 15px ;
+.blogcrumb a {
+  font-size: 1.25em;
+  margin: 0px 10px 0px 10px;
 }
 
-.blogcrumb a{
-  font-size: 1.25em; 
-  margin: 0px 10px 0px 10px;
+.blog-nav {
+  margin-bottom: 30px;
 }
