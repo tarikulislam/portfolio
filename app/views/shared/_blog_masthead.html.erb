@@ -6,7 +6,9 @@
       <%= link_to 'Write A New Blog', new_blog_path if logged_in?(:site_admin) %>
     </span>
     <span>
-      <%= link_to "Topics", topics_path %>
+      <button type="button" class="btn btn-info", aria-pressed="true", area-expanded="false">
+        <%= link_to "Topics", topics_path, class: "topicButton" %>
+      </button>
     </span>
   </div>
 </div>
