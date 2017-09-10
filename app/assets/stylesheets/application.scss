@@ -29,12 +29,26 @@ a:hover {
 html,
 body {
   height: 100%;
+  font-family: 'Lato', sans-serif;
+
 
 }
 body {
   color: #fff;
   text-align: center;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+}
+
+h1, .h1, 
+h2, .h2, 
+h3, .h3, 
+h4, .h4, 
+h5, .h5, 
+h6, .h6 {
+  
+font-family: 'Josefin Slab', serif;
+
+
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -103,7 +117,6 @@ body {
     float: right;
   }
 }
-
 
 /*
  * Cover
@@ -210,4 +223,37 @@ body {
 
 .app-footer {
   color: white;
+}
+
+.app-card-container {
+  color: black;
+  text-align: left;
+}
+
+.app-card-container > .card {
+  padding: 30px;
+}
+
+.col-md-8 > .about-me-text {
+  padding-left: 50px;
+}
+
+.profile-img {
+  border: 1px solid grey;
+}
+
+.app-card-container a {
+  color: blue;
+}
+
+.card-block { 
+  margin-top: 5px; 
+  margin-bottom: 5px;
+  padding: 8px;
+}
+
+.skill { 
+  padding-top: 12px;
+  margin-top: 5px; 
+  margin-bottom: 5px;
 }

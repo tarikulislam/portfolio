@@ -2,6 +2,13 @@
   <div class="container">
     <h1 class="blog-title">Meta Thoughts!</h1>
     <p class="lead blog-description">Let's learn, imagine and create!</p>
-    <%= link_to 'Write A New Blog', new_blog_path if logged_in?(:site_admin) %>
+    <span>
+      <%= link_to 'Write A New Blog', new_blog_path if logged_in?(:site_admin) %>
+    </span>
+    <span>
+      <button type="button" class="btn btn-info", aria-pressed="true", area-expanded="false">
+        <%= link_to "Topics", topics_path, class: "topicButton" %>
+      </button>
+    </span>
   </div>
 </div>
